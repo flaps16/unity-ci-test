@@ -16,7 +16,7 @@ notifications:
     on_failure: change
 
 # decrypt the encrypted SSH key file so it can be used for scp auth in post_build.sh
-before_install:
+#before_install:
 #- openssl aes-256-cbc -k "$KEYFILE_PASS" -in "${UPLOAD_KEYPATH}.enc" -out "${UPLOAD_KEYPATH}" -d
 
 # run the script to download and install Unity editor
@@ -28,7 +28,7 @@ script:
 - sudo bash ./Scripts/build.sh
 
 # run the script to upload the builds as tarballs
-after_success:
+#after_success:
 #- sudo -E sh ./Scripts/post_build.sh
 
 # environment variables used in bash scripts
