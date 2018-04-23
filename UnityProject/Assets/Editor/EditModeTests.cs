@@ -11,7 +11,7 @@ public class EditModeTests {
     {
         // Use the Assert class to test conditions.
     }
-    //[Test]
+    [Test]
     public void EditModeTestsSimplePassesFail()
     {
         Assert.True(false);
