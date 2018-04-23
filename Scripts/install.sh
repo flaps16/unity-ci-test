@@ -4,7 +4,7 @@
 #  The below link will need to change depending on the version, this one is for 5.5.1
 #  Refer to https://unity3d.com/get-unity/download/archive and find the link pointed to by Mac "Unity Editor"
 echo 'Downloading Unity 2017.3.1f1 pkg:'
-curl --retry 5 -o Unity.pkg https://download.unity3d.com/download_unity/1f4e0f9b6a50/MacEditorInstaller/Unity-2017.2.2f1.pkg
+curl --retry 5 -o Unity.pkg https://download.unity3d.com/download_unity/a9f86dcd79df/MacEditorInstaller/Unity-2017.3.0f3.pkg
 # http://netstorage.unity3d.com/unity/88d00a7498cd/MacEditorInstaller/Unity-5.5.1f1.pkg
 # https://download.unity3d.com/download_unity/497a0f351392/MacEditorInstaller/Unity-5.6.0f3.pkg
 # https://download.unity3d.com/download_unity/2860b30f0b54/MacEditorInstaller/Unity-5.6.1f1.pkg
