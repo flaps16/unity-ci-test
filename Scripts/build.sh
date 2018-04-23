@@ -14,8 +14,8 @@ echo "Running editor unit tests for ${UNITYCI_PROJECT_NAME}"
 	-logFile $(pwd)/unity.log \
 	-projectPath "$(pwd)/${UNITYCI_PROJECT_NAME}" \
 	-runEditorTests \
-	-editorTestsResultFile $(pwd)/test.xml \
-	-quit
+	-editorTestsResultFile $(pwd)/test.xml 
+#	-quit
 
 rc0=$?
 cat $(pwd)/unity.log
