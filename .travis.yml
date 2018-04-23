@@ -21,7 +21,7 @@ before_install:
 
 # run the script to download and install Unity editor
 install:
-- sudo -E sh ./Scripts/install.sh
+- sudo bash ./Scripts/Install.sh
 
 # run the script for unit tests and builds
 script:
