@@ -13,8 +13,9 @@ echo "Running editor unit tests for ${UNITYCI_PROJECT_NAME}"
 	-silent-crashes \
 	-logFile $(pwd)/unity.log \
 	-projectPath "$(pwd)/${UNITYCI_PROJECT_NAME}" \
-	-runEditorTests \
-	-editorTestsResultFile $(pwd)/test.xml 
+	-runTests \
+	-testResults $(pwd)/test.xml \
+	-testPlatform editmode
 #	-quit
 
 rc0=$?
