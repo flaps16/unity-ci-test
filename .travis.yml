@@ -21,11 +21,11 @@ notifications:
 
 # run the script to download and install Unity editor
 install:
-- sudo bash ./Scripts/Install.sh
+- sudo -E sh ./Scripts/Install.sh
 
 # run the script for unit tests and builds
 script:
-- sudo bash ./Scripts/build.sh
+- sudo -E sh ./Scripts/build.sh
 
 # run the script to upload the builds as tarballs
 #after_success:
