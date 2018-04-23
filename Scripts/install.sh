@@ -4,8 +4,8 @@
 #  The below link will need to change depending on the version, this one is for 5.5.1
 #  Refer to https://unity3d.com/get-unity/download/archive and find the link pointed to by Mac "Unity Editor"
 echo 'Downloading Unity 2017.3.1f1 pkg:'
-curl --retry 5 -o Unity.pkg http://netstorage.unity3d.com/unity/88d00a7498cd/MacEditorInstaller/Unity-5.5.1f1.pkg
-#https://netstorage.unity3d.com/unity/fc1d3344e6ea/MacEditorInstaller/Unity-2017.3.1f1.pkg
+curl --retry 5 -o Unity.pkg https://netstorage.unity3d.com/unity/fc1d3344e6ea/MacEditorInstaller/Unity-2017.3.1f1.pkg
+# http://netstorage.unity3d.com/unity/88d00a7498cd/MacEditorInstaller/Unity-5.5.1f1.pkg
 if [ $? -ne 0 ]; then { echo "Download failed"; exit $?; } fi
 
 # In Unity 5 they split up build platform support into modules which are installed separately
