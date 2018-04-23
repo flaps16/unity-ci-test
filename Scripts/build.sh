@@ -18,6 +18,7 @@ echo "Running editor unit tests for ${UNITYCI_PROJECT_NAME}"
 	-quit
 
 rc0=$?
+cat $(pwd)/unity.log
 echo "Unit test logs"
 cat $(pwd)/test.xml
 # exit if tests failed
