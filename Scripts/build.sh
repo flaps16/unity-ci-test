@@ -19,7 +19,6 @@ echo "Running editor unit tests for ${UNITYCI_PROJECT_NAME}"
 #	-quit
 
 rc0=$?
-cat $(pwd)/unity.log
 echo "Unit test logs"
 cat $(pwd)/test.xml
 # exit if tests failed
@@ -55,4 +54,4 @@ rc2=$?
 echo "Build logs (OSX)"
 cat $(pwd)/unity.log
 
-exit $(($rc1|$rc2))
+#exit $(($rc1|$rc2))
