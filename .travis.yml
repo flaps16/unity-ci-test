@@ -1,4 +1,4 @@
-# do not install anything extra onto the image
+- sudo bash ./Scripts/build.sh# do not install anything extra onto the image
 language: generic
 
 # use a Mac OSX image
@@ -25,7 +25,7 @@ install:
 
 # run the script for unit tests and builds
 script:
-- sudo -E sh ./Scripts/build.sh
+- sudo bash ./Scripts/build.sh
 
 # run the script to upload the builds as tarballs
 after_success:
