@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Timers;
 using UnityEngine;
 using UnityEngine.Networking;
+using Valve.VR.InteractionSystem;
 
 public class MoveObject : MonoBehaviour, IMovementController, IMovementType
 {
@@ -49,7 +50,7 @@ public class MoveObject : MonoBehaviour, IMovementController, IMovementType
 
 	public void InitType()
 	{
-		//this.transform.parent.GetComponent<NetworkTransform>().transformSyncMode = NetworkTransform.TransformSyncMode.SyncTransform;
+		this.transform.parent.GetComponent<NetworkTransform>().transformSyncMode = NetworkTransform.TransformSyncMode.SyncTransform;
 	}
 
 	public void MoveGameObject(Vector3 origin, Vector3 endPosition, float speed, GameObject gameObj)
