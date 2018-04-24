@@ -15,7 +15,8 @@ echo "Running editor unit tests for ${UNITYCI_PROJECT_NAME}"
 	-projectPath "$(pwd)/${UNITYCI_PROJECT_NAME}" \
 	-runTests \
 	-testResults $(pwd)/test.xml \
-	-testPlatform playmode, editmode
+	-testPlatform playmode \
+	-testPlatform editmode
 #	-quit
 
 rc0=$?
