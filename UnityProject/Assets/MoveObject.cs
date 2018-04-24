@@ -6,7 +6,6 @@ using System.Runtime.InteropServices;
 using System.Timers;
 using UnityEngine;
 using UnityEngine.Networking;
-using Valve.VR.InteractionSystem;
 
 public class MoveObject : MonoBehaviour, IMovementController, IMovementType
 {
