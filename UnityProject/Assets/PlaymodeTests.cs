@@ -7,7 +7,11 @@ using System.Collections;
 public class PlaymodeTests
 {
 
-	
+	 [Test]
+     public void ExamLiveTestExample()
+{
+Assert.True(true);
+}
 
 	[Test]
 	public void NewPlayModeTestSimplePasses() {
